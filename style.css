@@ -1,0 +1,130 @@
+html {
+  width: 767px;
+  height: 515px;
+}
+
+.pokedex {
+  background-image: url(img/poke.png);
+  background-repeat: no-repeat;
+  width: 767px;
+  height: 515px;
+}
+
+/**left side**/
+.buttons-up {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 30px;
+  padding-top: 15px;
+}
+
+.buttons-up-sm {
+  margin-left: 20px;
+}
+
+.poke-left {
+  width: 345px;
+}
+
+.poke {
+  background-image: url(img/jiggle-window.png);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  margin-left: 39px;
+  margin-top: 35px;
+}
+
+.poke-butt {
+  height: 220px;
+  width: 300px;
+}
+
+.poke-small-butt {
+  text-align: center;
+}
+
+.jiggle {
+  display: flex;
+  justify-content: center;
+}
+
+.poke-butt-down {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.buttons-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.pink-butt {
+  background-image: url(img/pink-butt.png);
+  background-repeat: no-repeat;
+  margin-top: -30px;
+  width: 95px;
+  height: 58px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+}
+
+/**right side**/
+.poke-right {
+  margin-top: -220px;
+  margin-left: 415px;
+  width: 345px;
+  height: 460px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name {
+  background-image: url(img/name.png);
+  background-repeat: no-repeat;
+  width: 285px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+li {
+  list-style: none;
+  font-family: verdana;
+  color: white;
+  text-align: center;
+  margin-right: 40px;
+}
+
+.butt1 {
+  margin-bottom: 10px;
+  width: 250px;
+  text-align: center;
+}
+
+.butt2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 10px;
+}
+
+.butt-long {
+  margin-top: -23px;
+  margin-left: 130px;
+}
+
+.butt3, .butt4 {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
